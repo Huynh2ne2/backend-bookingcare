@@ -4,7 +4,7 @@ import CRUDService from "../services/CRUDService";
 let getHomePage = async (req, res) => {
 
     try {
-        let data = await db.User.findAll();
+        let data = await db.Users.findAll();
         console.log('-------------------')
         console.log(data)
         console.log('-------------------')
